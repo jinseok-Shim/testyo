@@ -19,6 +19,14 @@
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cub-a9-9Ym" customClass="TouchView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="15" translatesAutoresizingMaskIntoConstraints="NO" id="gso-eD-W2i" customClass="CustomSlider">
+                                        <rect key="frame" x="42" y="57" width="291" height="31"/>
+                                        <connections>
+                                            <action selector="slider_value_changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="6nB-En-1G8"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -41,6 +49,25 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="376.5" y="222.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ex3-WX-4FK">
+            <objects>
+                <viewController id="nAj-WG-j8N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hPo-v2-d6K"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Cg-35-zyE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XTk-gY-w7k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="isk-LD-bbq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840.5" y="222.5"/>
         </scene>
     </scenes>
 </document>

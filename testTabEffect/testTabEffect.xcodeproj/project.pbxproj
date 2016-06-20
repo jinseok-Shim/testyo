@@ -16,6 +16,7 @@
 		4D45527E1D13A1E500086A34 /* testTabEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45527D1D13A1E500086A34 /* testTabEffectTests.m */; };
 		4D4552891D13A1E500086A34 /* testTabEffectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4552881D13A1E500086A34 /* testTabEffectUITests.m */; };
 		4D4552981D13A27F00086A34 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4552971D13A27F00086A34 /* TouchView.m */; };
+		4DFFC2A81D13EF0E004AEDCC /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFC2A71D13EF0E004AEDCC /* CustomSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4D45528A1D13A1E500086A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D4552961D13A27F00086A34 /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
 		4D4552971D13A27F00086A34 /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		4DFFC2A61D13EF0E004AEDCC /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		4DFFC2A71D13EF0E004AEDCC /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				4D4552631D13A1E500086A34 /* Supporting Files */,
 				4D4552961D13A27F00086A34 /* TouchView.h */,
 				4D4552971D13A27F00086A34 /* TouchView.m */,
+				4DFFC2A61D13EF0E004AEDCC /* CustomSlider.h */,
+				4DFFC2A71D13EF0E004AEDCC /* CustomSlider.m */,
 			);
 			path = testTabEffect;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				4D45526B1D13A1E500086A34 /* ViewController.m in Sources */,
 				4D4552681D13A1E500086A34 /* AppDelegate.m in Sources */,
 				4D4552651D13A1E500086A34 /* main.m in Sources */,
+				4DFFC2A81D13EF0E004AEDCC /* CustomSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +512,7 @@
 				4D45528F1D13A1E500086A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D4552901D13A1E500086A34 /* Build configuration list for PBXNativeTarget "testTabEffectTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +521,7 @@
 				4D4552921D13A1E500086A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D4552931D13A1E500086A34 /* Build configuration list for PBXNativeTarget "testTabEffectUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +530,7 @@
 				4D4552951D13A1E500086A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
